@@ -63,6 +63,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     device/xiaomi/aries/thermald_h.conf:system/etc/thermald_h.conf \
+    device/xiaomi/aries/init.highgpuvdd.sh:system/etc/init.highgpuvdd.sh \
+    device/xiaomi/aries/init.lowgpuvdd.sh:system/etc/init.lowgpuvdd.sh \
+    device/xiaomi/aries/init.midgpuvdd.sh:system/etc/init.midgpuvdd.sh \
     device/xiaomi/aries/thermald_l.conf:system/etc/thermald_l.conf
 
 PRODUCT_COPY_FILES += \
