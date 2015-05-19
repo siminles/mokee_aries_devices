@@ -131,6 +131,19 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
 
+# stagefright
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.stagefright.enable-player=true \
+    media.stagefright.enable-http=true \
+    media.stagefright.enable-aac=true \
+    media.stagefright.enable-qcp=true \
+    media.stagefright.enable-fma2dp=true \
+    media.stagefright.enable-scan=true
+
+# HWUI
+    ro.hwui.text_cache_width=4096 \
+    ro.hwui.texture_cache_size=48
+
 # qcom
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.audio.ssr=false \
@@ -138,13 +151,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Audio Configuration
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.audio.fluence.mode=endfire \
+    persist.audio.fluence.mode=none \
     persist.audio.vr.enable=false \
     persist.audio.handset.mic=digital \
     persist.audio.vns.mode=2 \
     af.resampler.quality=255 \
     qcom.hw.aac.encoder=true \
-    lpa.decode=true \
+    lpa.decode=flase \
+    lpa.use-stagefright=false \
     tunnel.decode=false \
     tunnel.audiovideo.decode=false
 
