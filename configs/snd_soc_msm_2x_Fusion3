@@ -1588,12 +1588,12 @@ SectionDevice
 		'RX1 MIX1 INP2':0:RX6
 		'RX2 MIX1 INP1':0:RX2
 		'RX2 MIX1 INP2':0:RX7
-		'RX1 Digital Volume':1:75
-		'RX2 Digital Volume':1:75
+		'RX1 Digital Volume':1:62
+		'RX2 Digital Volume':1:62
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:85
-		'HPHR Volume':1:85
+		'HPHL Volume':1:80
+		'HPHR Volume':1:80
 		'SLIM TX3 MUX':0:RMIX1
 		'SLIM TX5 MUX':0:RMIX2
 	EndSequence
@@ -1631,8 +1631,8 @@ SectionDevice
 		'RX2 MIX1 INP2':0:RX7
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:85
-		'HPHR Volume':1:85
+		'HPHL Volume':1:80
+		'HPHR Volume':1:80
 		'SLIM TX3 MUX':0:RMIX1
 		'SLIM TX5 MUX':0:RMIX2
 		'IIR1 Band1':2:0x10000000 0x0 0x0 0x0 0x0
@@ -1647,8 +1647,8 @@ SectionDevice
 		'IIR1 Enable Band5':1:1
 		'RX1 MIX2 INP1':0:IIR1
 		'RX2 MIX2 INP1':0:IIR1
-		'RX1 Digital Volume':1:75
-		'RX2 Digital Volume':1:75
+		'RX1 Digital Volume':1:68
+		'RX2 Digital Volume':1:68
 	EndSequence
 
 	DisableSequence
@@ -1689,20 +1689,20 @@ SectionDevice
 		'SLIM_0_RX Channels':0:One
 		'RX1 MIX1 INP1':0:IIR1
 		'RX2 MIX1 INP1':0:IIR1
-		'RX1 Digital Volume':1:75
-		'RX2 Digital Volume':1:75
+		'RX1 Digital Volume':1:72
+		'RX2 Digital Volume':1:72
 		'RX5 MIX1 INP1':0:RX6
 		'RX5 MIX1 INP2':0:RX1
 		'RX6 DSM MUX':0:DSM_INV
-		'RX5 Digital Volume':1:75
+		'RX5 Digital Volume':1:68
 		'LINEOUT2 Volume':1:100
 		'LINEOUT4 Volume':1:100
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:85
-		'HPHR Volume':1:85
+		'HPHL Volume':1:80
+		'HPHR Volume':1:80
 		'DEC2 MUX':0:ADC5
-		'DEC2 Volume':1:75
+		'DEC2 Volume':1:68
                 'ADC5 Volume':1:0
 		'IIR1 INP1 Volume':1:60
 	EndSequence
@@ -1741,22 +1741,22 @@ SectionDevice
 		'SLIM_0_RX Channels':0:One
 		'RX1 MIX1 INP1':0:IIR1
 		'RX2 MIX1 INP1':0:IIR1
-		'RX1 Digital Volume':1:80
-		'RX2 Digital Volume':1:80
+		'RX1 Digital Volume':1:72
+		'RX2 Digital Volume':1:72
 		'RX5 MIX1 INP1':0:RX6
 		'RX5 MIX1 INP2':0:RX1
 		'RX6 DSM MUX':0:DSM_INV
-		'RX5 Digital Volume':1:75
+		'RX5 Digital Volume':1:68
 		'LINEOUT2 Volume':1:100
 		'LINEOUT4 Volume':1:100
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:85
-		'HPHR Volume':1:85
+		'HPHL Volume':1:80
+		'HPHR Volume':1:80
 		'DEC2 MUX':0:ADC5
-		'DEC2 Volume':1:75
+		'DEC2 Volume':1:68
 		'ADC5 Volume':1:0
-		'IIR1 INP1 Volume':1:70
+		'IIR1 INP1 Volume':1:60
 	EndSequence
 
 	DisableSequence
@@ -1795,20 +1795,20 @@ SectionDevice
 		'RX3 MIX1 INP2':0:RX6
 		'RX3 MIX1 INP3':0:RX2
 		'RX4 DSM MUX':0:DSM_INV
-		'LINEOUT1 Volume':1:75
-		'LINEOUT3 Volume':1:75
+		'LINEOUT1 Volume':1:66
+		'LINEOUT3 Volume':1:66
 		'RX1 MIX1 INP1':0:RX1
 		'RX1 MIX1 INP2':0:RX6
 		'RX2 MIX1 INP1':0:RX2
 		'RX2 MIX1 INP2':0:RX7
 		'RX1 Digital Volume':1:55
 		'RX2 Digital Volume':1:55
-		'RX3 Digital Volume':1:75
-		'RX4 Digital Volume':1:75
+		'RX3 Digital Volume':1:72
+		'RX4 Digital Volume':1:72
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:85
-		'HPHR Volume':1:85
+		'HPHL Volume':1:80
+		'HPHR Volume':1:80
 		'SLIM TX3 MUX':0:RMIX1
 		'SLIM TX5 MUX':0:RMIX2
 		EndSequence
@@ -1931,10 +1931,10 @@ SectionDevice
 		'RX2 MIX1 INP2':0:RX7
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:75
-		'HPHR Volume':1:75
-		'RX1 Digital Volume':1:75
-		'RX2 Digital Volume':1:75
+		'HPHL Volume':1:70
+		'HPHR Volume':1:70
+		'RX1 Digital Volume':1:68
+		'RX2 Digital Volume':1:68
 		'ANC Slot':1:0
 		'ANC1 MUX':0:ADC4
 		'ANC2 MUX':0:ADC3
@@ -1984,10 +1984,10 @@ SectionDevice
 		'RX2 MIX1 INP2':0:RX7
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:75
-		'HPHR Volume':1:75
-		'RX1 Digital Volume':1:75
-		'RX2 Digital Volume':1:75
+		'HPHL Volume':1:70
+		'HPHR Volume':1:70
+		'RX1 Digital Volume':1:68
+		'RX2 Digital Volume':1:68
 		'ANC Slot':1:0
 		'ANC1 MUX':0:ADC4
 		'ANC2 MUX':0:ADC3
@@ -2060,16 +2060,16 @@ SectionDevice
 		'RX5 MIX1 INP2':0:RX7
 		'RX4 DSM MUX':0:DSM_INV
 		'RX6 DSM MUX':0:DSM_INV
-		'LINEOUT1 Volume':1:75
-		'LINEOUT2 Volume':1:75
-		'LINEOUT3 Volume':1:75
-		'LINEOUT4 Volume':1:75
+		'LINEOUT1 Volume':1:66
+		'LINEOUT2 Volume':1:66
+		'LINEOUT3 Volume':1:66
+		'LINEOUT4 Volume':1:66
 		'SLIM TX3 MUX':0:RMIX3
 		'SLIM TX5 MUX':0:RMIX5
-		'RX3 Digital Volume':1:75
-		'RX4 Digital Volume':1:75
-		'RX5 Digital Volume':1:75
-		'RX6 Digital Volume':1:75
+		'RX3 Digital Volume':1:68
+		'RX4 Digital Volume':1:68
+		'RX5 Digital Volume':1:68
+		'RX6 Digital Volume':1:68
 	EndSequence
 
 	DisableSequence
@@ -2100,7 +2100,7 @@ SectionDevice
 		'SLIM_0_TX Channels':0:One
 		'SLIM TX7 MUX':0:DEC5
 		'DEC5 MUX':0:ADC2
-		'DEC5 Volume':1:75
+		'DEC5 Volume':1:68
 		'ADC5 Volume':1:0
 		'DYN MICBIAS MUX':0:MB1
 	EndSequence
@@ -2127,7 +2127,7 @@ SectionDevice
 		'SLIM TX7 MUX':0:DEC5
 		'DEC5 MUX':0:ADC2
 		'ADC2 Volume':1:0
-		'DEC5 Volume':1:75
+		'DEC5 Volume':1:68
 		'DYN MICBIAS MUX':0:MB1
 	EndSequence
 
@@ -2200,7 +2200,7 @@ SectionDevice
                 'SLIM_0_TX Channels':0:One
                 'SLIM TX7 MUX':0:DEC5
                 'DEC5 MUX':0:ADC2
-                'DEC5 Volume':1:75
+                'DEC5 Volume':1:68
                 'ADC2 Volume':1:0
                 'DYN MICBIAS MUX':0:MB2
         EndSequence
@@ -2226,7 +2226,7 @@ SectionDevice
 		'SLIM_0_TX Channels':0:One
 		'SLIM TX7 MUX':0:DEC5
 		'DEC5 MUX':0:ADC2
-		'DEC5 Volume':1:75
+		'DEC5 Volume':1:68
 		'ADC2 Volume':1:0
 		'DYN MICBIAS MUX':0:MB2
 	EndSequence
@@ -2805,10 +2805,10 @@ SectionDevice
 		'SLIM_0_RX Channels':0:One
 		'RX3 MIX1 INP1':0:RX1
 		'RX4 DSM MUX':0:DSM_INV
-		'RX3 Digital Volume':1:75
-		'RX4 Digital Volume':1:75
-		'LINEOUT1 Volume':1:75
-		'LINEOUT3 Volume':1:75
+		'RX3 Digital Volume':1:68
+		'RX4 Digital Volume':1:68
+		'LINEOUT1 Volume':1:66
+		'LINEOUT3 Volume':1:66
 		'SLIM TX3 MUX':0:RMIX3
 		'SLIM TX5 MUX':0:RMIX5
 	EndSequence
@@ -2842,12 +2842,12 @@ SectionDevice
 		'RX2 MIX1 INP2':0:RX7
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:85
-		'HPHR Volume':1:85
+		'HPHL Volume':1:80
+		'HPHR Volume':1:80
 		'SLIM TX3 MUX':0:RMIX1
 		'SLIM TX5 MUX':0:RMIX2
-		'RX1 Digital Volume':1:75
-		'RX2 Digital Volume':1:75
+		'RX1 Digital Volume':1:68
+		'RX2 Digital Volume':1:68
 	EndSequence
 
 	DisableSequence
@@ -2883,18 +2883,18 @@ SectionDevice
 		'RX5 MIX1 INP2':0:RX7
 		'RX4 DSM MUX':0:DSM_INV
 		'RX6 DSM MUX':0:DSM_INV
-		'LINEOUT1 Volume':1:75
-		'LINEOUT2 Volume':1:75
-		'LINEOUT3 Volume':1:75
-		'LINEOUT4 Volume':1:75
+		'LINEOUT1 Volume':1:66
+		'LINEOUT2 Volume':1:66
+		'LINEOUT3 Volume':1:66
+		'LINEOUT4 Volume':1:66
 		'RX1 MIX1 INP1':0:RX1
 		'RX1 MIX1 INP2':0:RX6
 		'RX2 MIX1 INP1':0:RX2
 		'RX2 MIX1 INP2':0:RX7
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:85
-		'HPHR Volume':1:85
+		'HPHL Volume':1:80
+		'HPHR Volume':1:80
 		'SLIM TX3 MUX':0:RMIX1
 		'SLIM TX5 MUX':0:RMIX2
 	EndSequence
@@ -2940,20 +2940,20 @@ SectionDevice
 		'RX5 MIX1 INP2':0:RX7
 		'RX4 DSM MUX':0:DSM_INV
 		'RX6 DSM MUX':0:DSM_INV
-		'LINEOUT1 Volume':1:75
-		'LINEOUT2 Volume':1:75
-		'LINEOUT3 Volume':1:75
-		'LINEOUT4 Volume':1:75
+		'LINEOUT1 Volume':1:66
+		'LINEOUT2 Volume':1:66
+		'LINEOUT3 Volume':1:66
+		'LINEOUT4 Volume':1:66
 		'RX1 MIX1 INP1':0:RX1
 		'RX1 MIX1 INP2':0:RX6
 		'RX2 MIX1 INP1':0:RX2
 		'RX2 MIX1 INP2':0:RX7
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:75
-		'HPHR Volume':1:75
-		'RX1 Digital Volume':1:70
-		'RX2 Digital Volume':1:70
+		'HPHL Volume':1:70
+		'HPHR Volume':1:70
+		'RX1 Digital Volume':1:65
+		'RX2 Digital Volume':1:65
 		'ANC Slot':1:0
 		'ANC1 MUX':0:ADC4
 		'ANC2 MUX':0:ADC3
@@ -3015,10 +3015,10 @@ SectionDevice
 		'RX2 MIX1 INP2':0:RX7
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:75
-		'HPHR Volume':1:75
-		'RX1 Digital Volume':1:70
-		'RX2 Digital Volume':1:70
+		'HPHL Volume':1:70
+		'HPHR Volume':1:70
+		'RX1 Digital Volume':1:65
+		'RX2 Digital Volume':1:65
 		'ANC Slot':1:0
 		'ANC1 MUX':0:ADC4
 		'ANC2 MUX':0:ADC3
