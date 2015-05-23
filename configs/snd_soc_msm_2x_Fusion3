@@ -1588,12 +1588,12 @@ SectionDevice
 		'RX1 MIX1 INP2':0:RX6
 		'RX2 MIX1 INP1':0:RX2
 		'RX2 MIX1 INP2':0:RX7
-		'RX1 Digital Volume':1:67
-		'RX2 Digital Volume':1:67
+		'RX1 Digital Volume':1:65
+		'RX2 Digital Volume':1:65
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'HPHL Volume':1:97
-		'HPHR Volume':1:97
+		'HPHL Volume':1:95
+		'HPHR Volume':1:95
 		'SLIM TX3 MUX':0:RMIX1
 		'SLIM TX5 MUX':0:RMIX2
 	EndSequence
