@@ -1588,8 +1588,8 @@ SectionDevice
 		'RX1 MIX1 INP2':0:RX6
 		'RX2 MIX1 INP1':0:RX2
 		'RX2 MIX1 INP2':0:RX7
-		'RX1 Digital Volume':1:65
-		'RX2 Digital Volume':1:65
+		'RX1 Digital Volume':1:68
+		'RX2 Digital Volume':1:68
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
 		'HPHL Volume':1:95

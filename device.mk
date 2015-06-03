@@ -141,7 +141,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.enable-scan=true
 
 # HWUI
-    ro.hwui.text_cache_width=4096 \
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hwui.text_cache_width=2048 \
     ro.hwui.texture_cache_size=48
 
 # qcom
@@ -290,9 +291,14 @@ PRODUCT_PACKAGES += qrngd
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=1 \
     debug.egl.hw=1 \
-    debug.composition.type=dyn \
+    debug.composition.type=mdp \
     persist.hwc.mdpcomp.enable=true \
     debug.mdpcomp.logs=0
+
+# QC Perf
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.display_prefer=2 \
+    persist.sys.display_ce=11
 
 # QC Perf
 PRODUCT_PROPERTY_OVERRIDES += \
